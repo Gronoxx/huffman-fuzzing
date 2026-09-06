@@ -1,0 +1,6 @@
+# build artifacts and fuzzer output
+*.o
+fuzz_lerArquivo
+fuzzer_log.txt
+temp_input.txt
+crash-*
