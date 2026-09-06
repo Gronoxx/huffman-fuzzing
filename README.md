@@ -5,9 +5,9 @@ my Huffman file compressor from a data structures course, and attack it with cov
 
 ## Layout
 
-- `TP/` — the target: the original Huffman compressor in C++ (tree, min-priority queue, AVL-balanced
+- `TP/`: the target, the original Huffman compressor in C++ (tree, min-priority queue, AVL-balanced
   map used to translate characters to codes).
-- `HuffmanCompressor/huffman/` — the fuzzing setup in OSS-Fuzz project layout: `Dockerfile`,
+- `HuffmanCompressor/huffman/`: the fuzzing setup in OSS-Fuzz project layout, with `Dockerfile`,
   `build.sh`, `project.yaml`, and the harness.
 
 ## The harness
